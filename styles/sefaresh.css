@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'iransans';
+    src: url('../plugins/iran.ttf');
+}
+@font-face {
+    font-family: 'homa';
+    src: url('../plugins/homa.ttf');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fafafa;
+    font-family: 'iransans';
+    overflow-x: hidden;
+}
+.btn-primary , .btn-primary:hover{
+    color: #ece6f4;
+    background-color: #ab92cc;
+    border-color: #c7afe8;
+}
+.border-primary {
+    border-color: #af97ce !important;
+}
+.text-warning{
+    color: #ab92cc !important;
+}
+#sefareshTeamMemberSlider{
+    padding-bottom: 30% !important;
+}
